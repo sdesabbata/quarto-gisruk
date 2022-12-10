@@ -3,3 +3,9 @@
 .RData
 .Ruserdata
 .DS_Store
+
+# Template testing
+template.log
+template.tex
+template.pdf
+template_files
