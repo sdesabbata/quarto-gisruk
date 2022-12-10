@@ -1,0 +1,32 @@
+---
+title: The Title of the Paper
+format:
+  gisruk-pdf:
+    keep-tex: true
+author:
+  - name: Author A
+    affiliations:
+      - name: An Organization
+        department: The Department
+        address: 1 University Rd
+        city: Somewhere
+        country: USA
+        postal-code: 02210-1022
+      - A second affilication
+    orcid: 0000-0000-0000-0000
+    email: author.a@university.edu
+    url: https://university.edu/author.a
+  - name: Author B
+    affiliations:
+      - Another Affiliation
+abstract: |
+  This document is a template demonstrating the Gisruk format.
+keywords: [template, demo]
+bibliography: bibliography.bib  
+---
+
+## Introduction {#sec-intro}
+
+*TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
+
+
