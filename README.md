@@ -32,3 +32,7 @@ Here is the source code for a minimal sample document: [`template.qmd`](template
 
 The minimal sample document was created using RStudio and includes an R code chunk which generates an L-function plot using `spatstat` as an example figure. If you do not have R and `spatstat` installed, you can remove the code chunk in lines 64 to 91 from the `template.qmd` example before rendering the document.
 
+## Links
+
+- An RMarkdown template: https://github.com/Robinlovelace/gisruk-rmd
+- LaTeX example: http://leeds.gisruk.org/paper_templates/GISRUKPaperTemplate2015-Latex.zip
