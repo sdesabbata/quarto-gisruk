@@ -1,27 +1,28 @@
 title: GISRUK
 author: Stefano De Sabbata
-version: 0.0.2
+version: 0.1.0
 quarto-required: ">=1.2.0"
 contributes:
   formats:
     common:
       toc: false
-      filters:
-        - gisruk.lua
     pdf:
       documentclass: article
       fontsize: 11pt
+      number-sections: true
       geometry:
-        - left=25mm
-        - right=25mm
-        - top=25mm
-        - bottom=25mm
-        - includehead=true
-        - includefoot=true
+        - left = 25mm
+        - right = 25mm
+        - top = 25mm
+        - bottom = 25mm
+        - includehead = true
+        - includefoot = true
+      hyperrefoptions:
+        - pdfborder = {0 0 0}
       include-in-header:
         - packages.tex
-      hyperrefoptions:
-        - pdfborder={0 0 0}
-      template-partials: ["partials/before-body.tex", "partials/biblio.tex"]
-      cite-method: natbib
-      number-sections: true
+      template-partials: 
+        - partials/title.tex
+        - partials/before-body.tex
+      cite-method: biblatex
+      biblio-style: apa
