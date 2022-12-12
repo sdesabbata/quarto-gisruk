@@ -6,7 +6,7 @@
 To create a new article using this format:
 
 ```bash
-quarto use template sdesabbata/quarto-gisruk-template
+quarto use template sdesabbata/quarto-gisruk
 ```
 
 This will create a new directory with an example document that uses this format.
@@ -16,14 +16,14 @@ This will create a new directory with an example document that uses this format.
 To add this format to an existing document:
 
 ```bash
-quarto add sdesabbata/quarto-gisruk-template
+quarto add sdesabbata/quarto-gisruk
 ```
 
 Then, add the format to your document options:
 
 ```yaml
 format:
-  quarto-gisruk-template-pdf: default
+  quarto-gisruk-pdf: default
 ```    
 
 ## Example
