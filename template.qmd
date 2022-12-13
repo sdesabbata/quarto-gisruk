@@ -1,8 +1,6 @@
 ---
+conference: GISRUK 2023
 title: The Title of the Paper
-format:
-  gisruk-pdf:
-    keep-tex: true
 author:
   - name: First Author
     affiliations:
@@ -23,6 +21,9 @@ abstract: |
   Summary of no more than 100 words. Also select 5 keywords or short phrases relevant to the work and list them below in the keywords list.
 keywords: [template, demo]
 bibliography: bibliography.bib
+format:
+  gisruk-pdf:
+    keep-tex: true
 ---
 
 # Introduction to guidelines {#sec-introduction}
