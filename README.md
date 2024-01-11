@@ -23,7 +23,7 @@ Then, add the format to your document options:
 
 ```yaml
 format:
-  quarto-gisruk-pdf: default
+  gisruk-pdf: default
 ```    
 
 
