@@ -11,7 +11,7 @@ $for(by-author)$
 $endfor$
 
 $for(by-affiliation)$
-\affil[$it.number$]{$if(it.name)$$it.name$$endif$$if(it.address)$, $it.address$$endif$$if(it.city)$$if(it.postal-code)$, $it.postal-code$ $it.city$$else$, $it.city$$endif$$endif$$if(it.region)$, $it.region$$endif$$if(it.country)$, $it.country$$endif$}
+\affil[$it.number$]{$if(it.department)$$it.department$$endif$, $if(it.name)$$it.name$$endif$$if(it.address)$, $it.address$$endif$$if(it.city)$$if(it.postal-code)$, $it.postal-code$ $it.city$$else$, $it.city$$endif$$endif$$if(it.region)$, $it.region$$endif$$if(it.country)$, $it.country$$endif$}
 $endfor$
 
 \date{$conference$}
